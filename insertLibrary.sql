@@ -1,0 +1,81 @@
+insert into book values
+(1,	'Killer Stories',	'Dwayne Caff'),
+(2,	'Sheep Ba',	'Guilbert Robrow'),
+(3,	'African Folklore',	'Tabitha Lubbock'),
+(4,	'Banditry 101',	'Karlene Lilburne'),
+(5,	'Web Development',	'Dwayne Caff'),
+(6,	'FableHaven',	'Daniela Mathews'),
+(7,	'Oreos Ice-cream',	'Alverta Banfield'),
+(8,	'Batman',	'Nancie Braben'),
+(9,	'Become a millionaire',	'Priscilla De Bischop'),
+(10, 'I have no idea',	'Doyle Plane'),
+(11, 'Love 101',	'Forbes Markushkin'),
+(12, 'Learn Religion',	'Guilbert Robrow'),
+(13, 'The Last Messenger',	'Muhammad Van Niekerk'),
+(14, 'Kids in the Garden',	'Flossi Greveson'),
+(15, 'Flintstone',	'Clemente Davidovsky'),
+(16, 'Yahoo 101: Next-Gen Hushpuppi',	'Alverta Banfield'),
+(17, 'Blockchain: A foof for thought',	'Jyoti Inglese'),
+(18, 'Voltsillam',	'Kara-lynn Hutchinges'),
+(19, 'Lotlux',	'Karina Kimmel'),
+(20, 'Bytecard',	'Kara-lynn Hutchinges');
+
+
+
+insert into borrowed values
+(1, 1, 2, 9, '2022-01-25', '2022-04-13'),
+(2, 2, 1, 12, '2021-07-09', '2022-04-13'),
+(3, 3, 4, 9, '2021-06-09', '2022-04-13'),
+(4, 4, 5, 7, '2021-12-18', '2022-04-13'),
+(5, 5, 3, 8, '2022-02-20', '2022-04-13'),
+(6, 6, 6, 17, '2022-02-21', '2022-04-13'),
+(7, 7, 9, 12, '2021-10-08', '2022-04-13'),
+(8, 8, 10, 6, '2022-05-15', '2022-04-13'),
+(9, 9, 1, 14, '2021-05-31', '2022-04-13'),
+(10, 10, 3, 13, '2021-07-30', '2022-04-13'),
+(11, 11, 5, 9, '2021-09-28', '2022-04-13'),
+(12, 12, 4, 15, '2021-07-29', '2022-04-13'),
+(13, 13, 7, 14, '2021-08-11', '2022-04-13'),
+(14, 14, 3, 10, '2021-09-04', '2022-04-13'),
+(15, 15, 2, 10, '2022-05-08', '2022-04-13'),
+(16, 16, 8, 11, '2022-01-30', '2022-04-13'),
+(17, 17, 9, 8, '2021-12-03', '2022-04-13'),
+(18, 18, 5, 14, '2021-07-01', '2022-04-13'),
+(19, 19, 7, 19, '2021-08-08', '2022-04-13'),
+(20, 20, 1, 17, '2022-04-13', '2022-04-13');
+
+
+insert into staff values
+(1, 'Lacy Alenov', 'lalenov0@si.edu', '5267872683', '10 Anderson Road', 'Librarian'),
+(2, 'Corrie Matysik', 'cmatysik1@ibm.com', '4887087112', '9 Derek Trail', 'Security Guard'),
+(3, 'Celinda Penddreth', 'cpenddreth2@google.ru', '8674785842', '89683 Arkansas Crossing', 'Librarian'),
+(4, 'Dani Whyley', 'dwhyley3@istockphoto.com', '8396446167', '638 Delaware Way', 'Janitor'),
+(5, 'Giffie Kingscote', 'gkingscote4@plala.or.jp', '2449260571', '159 Di Loreto Alley', 'Librarian'),
+(6, 'Olivier Broschke', 'obroschke5@surveymonkey.com', '5532193912', '24 American Ash Road', 'Security Guard'),
+(7, 'Rivy Densham', 'rdensham6@vkontakte.ru', '2422195734', '92262 Gateway Terrace', 'Security Guard'),
+(8, 'Jocelyn Sallery', 'jsallery7@wufoo.com', '3897678131', '87 Eagan Center', 'Janitor'),
+(9, 'Nichole Simyson', 'nsimyson8@unblog.fr', '5352839348', '66749 Barnett Circle', 'Janitor'),
+(10, 'Roarke Oxenham', 'roxenham9@google.com.br', '6648993301', '49846 Hanson Terrace', 'Photographer');
+
+
+insert into user values
+  (1, 'Raphael Urling', 'F', '0 Hayes Pass', '6123999058'),
+  (2, 'Iormina Kovalski', 'M', '123 Troy Hill', '7172843005'),
+  (3, 'Nadiya Biset', 'M', '37 Emmet Road', '6072904245'),
+  (4, 'Zacherie Tingey', 'F', '59 Kensington Drive', '8166565532'),
+  (5, 'Shaw Tsar', 'F', '2802 Spaight Way', '3069392593'),
+  (6, 'Beatrix Anersen', 'M', '27945 Hansons Street', '9057218476'),
+  (7, 'Tremaine Rudinger', 'M', '834 Oak Parkway', '7399563530'),
+  (8, 'Leonard Emby', 'M', '84 Coleman Road', '5138706406'),
+  (9, 'Shelley Klehn', 'M', '9 Forster Avenue', '6985981546'),
+  (10, 'Kean McFater', 'F', '60 Cherokee Street', '7538491730'),
+  (11, 'Brantley Aitcheson', 'F', '19236 Canary Park', '4026156795'),
+  (12, 'Clemence Martugin', 'M', '943 Cascade Center', '3251106022'),
+  (13, 'Jarrett Jeffray', 'M', '4 Warbler Lane', '7644644308'),
+  (14, 'Billi Elford', 'F', '403 Summit Way', '2745700255'),
+  (15, 'Margret Foux', 'F', '761 Shopko Plaza', '5591683037'),
+  (16, 'Thibaut Sprankling', 'F', '002 Dennis Circle', '9138413460'),
+  (17, 'Lucille Farress', 'M', '5 Judy Alley', '6835078981'),
+  (18, 'Orel Cobain', 'F', '491 Warner Pass', '5126745649'),
+  (19, 'Hashim Jeeks', 'M', '54 Sommers Circle', '6716493037'),
+  (20, 'Frederigo Husthwaite', 'M', '9735 Starling Lane', '2751686219');
